@@ -1,3 +1,21 @@
 * {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.menu {
+    background-color: gray;
+}
+
+h2 {
+    background-color: gray;
+}
+
+.kec {
+    background-color: rgb(36, 36, 36);
+    border: 1px solid white;
 }
