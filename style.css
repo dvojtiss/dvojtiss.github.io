@@ -7,8 +7,30 @@ body {
     background-color: black;
 }
 
-.menu {
-    background-color: gray;
+
+
+tr, td {
+    border: 4px outset white;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+td:hover {
+    border: 4px inset white;
+}
+
+a {
+    color: blue !important;
+    background-color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cyan;
+}
+
+table {
+    border: 1px solid white;
 }
 
 h2 {
