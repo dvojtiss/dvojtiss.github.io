@@ -35,9 +35,64 @@ table {
 
 h2 {
     background-color: gray;
+    margin: 0 0 0 0;
+    border-bottom: 4px ridge white;
 }
 
 .kec {
     background-color: rgb(36, 36, 36);
-    border: 1px solid white;
+    border: 4px ridge white;
+}
+
+p {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+
+/* WIDTH */
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+
+/* TRACK */
+::-webkit-scrollbar-track {
+  background: #c0c0c0;
+  border-left: 1px solid #808080;
+}
+
+/* THUMB */
+::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border: 2px solid #808080;
+  box-shadow:
+    inset 1px 1px 0 #ffffff,
+    inset -1px -1px 0 #404040;
+}
+
+/* THUMB HOVER */
+::-webkit-scrollbar-thumb:hover {
+  background: #b0b0b0;
+}
+
+/* BUTTONS (ARROWS) */
+::-webkit-scrollbar-button {
+  background: #c0c0c0;
+  border: 2px solid #808080;
+  box-shadow:
+    inset 1px 1px 0 #ffffff,
+    inset -1px -1px 0 #404040;
+  width: 16px;
+  height: 16px;
+}
+
+/* BUTTON HOVER */
+::-webkit-scrollbar-button:hover {
+  background: #b0b0b0;
+}
+
+/* CORNER */
+::-webkit-scrollbar-corner {
+  background: #c0c0c0;
 }
